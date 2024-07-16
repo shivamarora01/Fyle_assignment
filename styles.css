@@ -1,0 +1,53 @@
+/* Custom styles for the contact form */
+.modal .modal-dialog {
+    max-width: 500px;
+}
+
+.modal .modal-content {
+    padding: 20px;
+}
+.container .leftDiv {
+    flex-direction: column;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-transform: uppercase;
+    height: 100vh;
+    color: black;
+    width: 50%;
+    gap: 10px;
+}
+.container .btnCls {
+   align-items: center;
+   justify-content: center;
+   background-color: red;
+}
+.container .leftDiv h5 {
+    color: red;
+}
+.container .leftDiv p {
+    size: 5px;
+}
+.container .leftDiv h1 {
+    font-weight: 700;
+}
+.container .leftDiv button {
+    width: 20%;
+}
+
+.container .rightDiv {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
